@@ -8,6 +8,8 @@ import { loadState } from "./utils/Store.js"
 class ObservableAppState extends EventEmitter {
   page = ''
 
+
+
   animals = [
   
   new Animal('bears','$10','https://images.unsplash.com/photo-1639867061291-996e8c839096?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJlYXIlMjBjdWJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'),
@@ -16,10 +18,9 @@ class ObservableAppState extends EventEmitter {
 
   new Animal('wolf','$30','https://plus.unsplash.com/premium_photo-1661899053699-f49eb65ca6a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d29sZnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60')
 
-
 ]
 
-
+totalMoney = 0
 
 
 

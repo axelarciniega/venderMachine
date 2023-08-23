@@ -8,7 +8,7 @@ import { AboutView } from "./views/AboutView.js";
 export const router = [
   {
     path: '',
-    controller: HomeController,VendingController,
+    controller: [HomeController,VendingController],
     view: /*html*/`
     <section class = 'row justify-content-center' id = "animal-list"></section>
     `

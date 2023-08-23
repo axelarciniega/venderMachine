@@ -8,7 +8,20 @@ export class Animal{
     }
 
     get ListTemplate(){
-        return `<p>${this.picture}</p>`
+        return `<div class = 'col-4'>
+        <h3>${this.name}</h3>
+        <h3>${this.price}</h3>
+        <img src = "${this.picture}" class = "img"/>
+        </div>
+        `
+    }
+
+    get MoneyTemplate(){
+        return `
+        <div>
+        <p id = "money-list"></p>
+        </div>
+        `
     }
 
 
